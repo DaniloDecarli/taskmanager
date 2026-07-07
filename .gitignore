@@ -1,0 +1,18 @@
+# Ambiente
+.env
+.env.local
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Build / dependências (redundância com .gitignore dos subprojetos)
+node_modules/
+dist/
+target/
